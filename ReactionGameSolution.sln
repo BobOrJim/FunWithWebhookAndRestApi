@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReactionGame", "ReactionGame", "{3B8B5691-E404-4FBB-A836-152C7602D7D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{3DE80BCB-29C8-4D2B-88DD-936B15457C7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "src\WebApi\API.csproj", "{08EFE9B9-3573-45B8-8EDD-237742E6C8C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactionGame", "src\ReactionGame\ReactionGame.csproj", "{DE056F60-69A1-4D22-B339-9A2827BB8B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strechgoal", "Strechgoal", "{D0801841-AD95-4B95-967A-8B161164E9AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strechgoal", "src\Strechgoal\Strechgoal.csproj", "{C61496BA-F226-4739-83D8-1E0C3C1D8484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebhookSub", "WebhookSub", "{F297851A-8131-42E8-BCBA-C4346C1D90F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookSub", "src\WebhookSub\WebhookSub.csproj", "{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EFE9B9-3573-45B8-8EDD-237742E6C8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EFE9B9-3573-45B8-8EDD-237742E6C8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EFE9B9-3573-45B8-8EDD-237742E6C8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EFE9B9-3573-45B8-8EDD-237742E6C8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE056F60-69A1-4D22-B339-9A2827BB8B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE056F60-69A1-4D22-B339-9A2827BB8B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE056F60-69A1-4D22-B339-9A2827BB8B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE056F60-69A1-4D22-B339-9A2827BB8B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61496BA-F226-4739-83D8-1E0C3C1D8484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61496BA-F226-4739-83D8-1E0C3C1D8484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61496BA-F226-4739-83D8-1E0C3C1D8484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61496BA-F226-4739-83D8-1E0C3C1D8484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08EFE9B9-3573-45B8-8EDD-237742E6C8C9} = {3DE80BCB-29C8-4D2B-88DD-936B15457C7C}
+		{DE056F60-69A1-4D22-B339-9A2827BB8B2D} = {3B8B5691-E404-4FBB-A836-152C7602D7D1}
+		{C61496BA-F226-4739-83D8-1E0C3C1D8484} = {D0801841-AD95-4B95-967A-8B161164E9AB}
+		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B} = {F297851A-8131-42E8-BCBA-C4346C1D90F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5A882B-79F3-4D35-95F6-36B06768A059}
+	EndGlobalSection
+EndGlobal
