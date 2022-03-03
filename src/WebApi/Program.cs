@@ -20,6 +20,8 @@ using System.Configuration;
 using API.Repository;
 using API.Services;
 
+
+        
 var builder = WebApplication.CreateBuilder(args);
 
 IConfiguration config = new ConfigurationBuilder()
@@ -42,23 +44,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors();
 
-
-
 var app = builder.Build();
-
 
 // global cors policy
 app.UseCors(x => x
     .AllowAnyMethod()
-    .AllowAnyHeader()
+.AllowAnyHeader()
     .SetIsOriginAllowed(origin => true) // allow any origin
     .AllowCredentials()); // allow credentials
 
-
-
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+    
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
@@ -71,3 +68,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program {}
+

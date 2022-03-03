@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strechgoal", "src\Strechgoa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebhookSub", "WebhookSub", "{F297851A-8131-42E8-BCBA-C4346C1D90F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookSub", "src\WebhookSub\WebhookSub.csproj", "{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebhookSub", "src\WebhookSub\WebhookSub.csproj", "{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "src\WebApi.Integration.Tests\WebApi.Tests\WebApi.Tests.csproj", "{F86E6239-BE60-4F68-A31E-53F33A0BFF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi.Tests", "WebApi.Tests", "{45504A2A-A1EB-4ED8-8D54-4E328A819459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86E6239-BE60-4F68-A31E-53F33A0BFF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86E6239-BE60-4F68-A31E-53F33A0BFF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86E6239-BE60-4F68-A31E-53F33A0BFF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86E6239-BE60-4F68-A31E-53F33A0BFF3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{DE056F60-69A1-4D22-B339-9A2827BB8B2D} = {3B8B5691-E404-4FBB-A836-152C7602D7D1}
 		{C61496BA-F226-4739-83D8-1E0C3C1D8484} = {D0801841-AD95-4B95-967A-8B161164E9AB}
 		{DB6ED6C8-9BA2-4C1D-83CB-E5F46A7F072B} = {F297851A-8131-42E8-BCBA-C4346C1D90F4}
+		{F86E6239-BE60-4F68-A31E-53F33A0BFF3E} = {45504A2A-A1EB-4ED8-8D54-4E328A819459}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC5A882B-79F3-4D35-95F6-36B06768A059}
